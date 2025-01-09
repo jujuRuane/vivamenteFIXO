@@ -42,7 +42,7 @@ line-height: 10px;
      }
 
    h2{
-    color: rgb(18, 3, 32);
+    color: rgb(62, 38, 85);
     font-family: 'Times New Roman', Times, serif;
     font-size:40px;
     display: flex;
@@ -62,7 +62,11 @@ line-height: 10px;
 
      }
 
-    
+ 
+
+
+     
+
 main{
     display: flex;
     flex-direction: row;
