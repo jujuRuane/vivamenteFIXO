@@ -23,12 +23,18 @@ font-family: 'Times New Roman', Times, serif;
     }
 
     
+
+    
 /*FORMATAÇÃO DO BOTÃO*/
 
 
     .btn{
-padding: 5px 50px;
-width: 50px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+padding: 5px 5px;
+height: 55px;
+width:380px;
 color: white;
 background-color: rgb(131, 111, 186);
 border: 1px solid rgb(62, 22, 89);
@@ -36,12 +42,16 @@ border-radius: 12px;
 text-align: center;
 user-select: none;
 cursor: pointer;
+margin-bottom: 30px;
+
+
 
     }
 
  .btn:hover{
-    background-color: rgb(171, 143, 249);
-    transition: background 1s;
+  /*background-color: rgb(171, 143, 249);
+    transition: background 1s;*/
+    transform: scale(1.02);
  }
 
 header {
@@ -49,8 +59,31 @@ background-color: rgb(131, 111, 186)
 
 }
 
+.btn1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+padding: 5px 5px;
+height: 55px;
+width:380px;
+color: white;
+background-color: rgb(131, 111, 186);
+border: 1px solid rgb(62, 22, 89);
+border-radius: 12px;
+text-align: center;
+user-select: none;
+cursor: pointer;
+margin-bottom: 30px;
+}
 
-/*FORMATAÇÃO DAS IMAGENS DO SOBRE NÓS*/
+.btn1:hover{
+    /*background-color: rgb(171, 143, 249);
+    transition: background 1s;*/
+    transform: scale(1.02);
+
+ }
+
+/*FORMATAÇÃO DAS IMAGENS DO SOBRE NÓS E TEXTOS DESTE MENU*/
 
 
 img {
@@ -67,7 +100,11 @@ border: 5px solid rgb(54, 24, 119);
 }
 
 h1 {
-text-align: left;
+text-align: center;
 
 }
+h2 { 
+    text-align: center;
+    
+    }
  
