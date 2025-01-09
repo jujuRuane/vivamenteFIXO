@@ -5,9 +5,20 @@ body{
     color:rgb(42, 27, 74);
 font-size: 22px;
 font-family: 'Times New Roman', Times, serif;
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+
+}
+
+#title{
+flex-direction: column;
+line-height: 10px;
 
 }
  
+li{
+}
  ul {
      display: flex;
      justify-content: space-between;
@@ -16,12 +27,40 @@ font-family: 'Times New Roman', Times, serif;
      padding: 16px;
     }
 
-    a {
-       color: rgb(57, 23, 81);
-       text-decoration: none;
-      
-    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:27px;
+        
+     }
 
+   h2{
+    color: rgb(18, 3, 32);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    line-height: 10px;
+
+   }
+    
+
+    a {
+        color: rgb(57, 23, 81);
+        text-decoration: none;
+        margin: 20px;
+        font-size:20px;
+
+
+     }
+
+    
+main{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
     
 
     
@@ -32,7 +71,7 @@ font-family: 'Times New Roman', Times, serif;
         display: block;
         margin-right: auto;
         margin-left: auto;
-padding: 5px 5px;
+padding: 3px 3px;
 height: 55px;
 width:380px;
 color: white;
@@ -43,6 +82,8 @@ text-align: center;
 user-select: none;
 cursor: pointer;
 margin-bottom: 30px;
+align-items: center;
+
 
 
 
@@ -55,9 +96,13 @@ margin-bottom: 30px;
  }
 
 header {
-background-color: rgb(131, 111, 186)
-
+background-color: rgb(141, 118, 207);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
 }
+
 
 .btn1{
     display: block;
@@ -99,12 +144,15 @@ border: 5px solid rgb(54, 24, 119);
     text-align: center;
 }
 
-h1 {
-text-align: center;
+
+
+span{}
+
+.infor{
+    color: rgb(57, 23, 81);
+    text-decoration: none;
+    margin: 20px;
+    font-size:20px
 
 }
-h2 { 
-    text-align: center;
-    
-    }
  
