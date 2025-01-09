@@ -1,3 +1,4 @@
+/*FORMATAÇÃO DO TEXTO E MENU*/
 
 body{
     background-color: white;
@@ -22,6 +23,7 @@ font-family: 'Times New Roman', Times, serif;
     }
 
     
+/*FORMATAÇÃO DO BOTÃO*/
 
 
     .btn{
@@ -38,7 +40,6 @@ cursor: pointer;
     }
 
  .btn:hover{
-
     background-color: rgb(171, 143, 249);
     transition: background 1s;
  }
@@ -49,5 +50,24 @@ background-color: rgb(131, 111, 186)
 }
 
 
+/*FORMATAÇÃO DAS IMAGENS DO SOBRE NÓS*/
 
+
+img {
+width: 150px;
+height: 150px;
+border-radius: 50% ;
+border: 5px solid rgb(54, 24, 119);
+
+}
+
+.center{
+
+    text-align: center;
+}
+
+h1 {
+text-align: left;
+
+}
  
